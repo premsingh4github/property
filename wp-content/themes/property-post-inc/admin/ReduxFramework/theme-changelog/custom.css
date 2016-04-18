@@ -1,0 +1,7 @@
+.form-table td fieldset#ct_options-changelog  label,
+.form-table td fieldset#ct_options-changelog li,
+.form-table td fieldset#ct_options-changelog p { line-height: 1.8em;}
+
+#ct_options-changelog h3 { font-size: 1em;}
+#ct_options-changelog li ul { margin: 0 1.5em;}
+	#ct_options-changelog ul li { list-style: disc;}

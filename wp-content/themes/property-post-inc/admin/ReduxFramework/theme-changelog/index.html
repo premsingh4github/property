@@ -1,0 +1,1444 @@
+<h3><strong>v1.5.3</strong> 12/30/2015</h3>
+
+<ol>
+	<li>Fixed ct_theme_directory_uri() path bug when adding an images directory to your child theme
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Removed Sensor Parameter from Google Maps Script Call as its not required by the API any longer
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Removed test function/code that was outputting the Site URL on the Contact Page Template
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > template-contact.php</li>
+		</ul>
+	</li>
+	<li>Updated documentation, added steps on overwriting images specifically the map pins in child themes <a href="http://wp.contempographicdesign.com/wp-real-estate-7/documentation/#childthemes">link</a>
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-documentation > index.html</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.5.2</strong> 12/29/2015</h3>
+
+<ol>
+	<li><strong>New Feature!</strong> Added Agent Order field to User Profile so you can manually order them however you'd like using 1, 2, 3, etc&hellip;. It can be set via Users > Profile > Extra Profile Information > Agent Order <a href="http://cl.ly/3a0C3H2p1Y0u">Screenshot</a> &amp; it needs to be turned on via Real Estate 7 Options > Agents > Manually Order Agents <a href="http://cl.ly/3j0q3Z3L1T1u">Screenshot</a>.
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-options > re7-config.php</li>
+			<li><strong>File affected:</strong> realestate-7 > template-agents.php</li>
+		</ul>
+	</li>
+	<li><strong>New Feature!</strong> Added option to allow only registered/logged in users to favorite listings, if turned on and user isn't logged in when the heart is clicked they'll get the login/register modal. Can be selected via Real Estate 7 Options > WP Favorite Posts > Only Allow Registered Users to Favorite? <a href="http://cl.ly/3P1C453W3e1l">Screenshot</a>
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-options > re7-config.php</li>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+			<li><strong>File affected:</strong> realestate-7 > css > layout.css</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > widgets > ct-widget-agentsotherlistings.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > widgets > ct-widget-listings.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > featured-listings.php</li>
+			<li><strong>File affected:</strong> realestate-7 > layouts > grid.php</li>
+			<li><strong>File affected:</strong> realestate-7 > single-listings.php</li>
+		</ul>
+	</li>
+	<li>Fixed email character encoding issue for agent email links
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > author.php</li>
+			<li><strong>File affected:</strong> realestate-7 > template-agents.php</li>
+		</ul>
+	</li>
+	<li>Fixed WPML Language Switcher bug
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updated language files
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > languages > contempo.pot</li>
+			<li><strong>File affected:</strong> realestate-7 > languages > en_US.po</li>
+			<li><strong>File affected:</strong> realestate-7 > languages > en_US.mo</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.5.1</strong> 12/25/2015</h3>
+
+<ol>
+	<li>Updated Visual Composer and Slider Revolution to the latest versions
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > plugins > js_composer.zip</li>
+			<li><strong>File affected:</strong> realestate-7 > admin > plugins > revslider.zip</li>
+			<li><strong>File affected:</strong> realestate-7 > admin > plugins > register.php</li>
+		</ul>
+	</li>
+	<li>Fixed PayPal currency bug
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Fixed Co-Listing Agents bug when more than two were assigned to a listing
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > single-listings.php</li>
+		</ul>
+	</li>
+	<li>Fixed Contact Page Phone &amp; Subject field bugs
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-options > re7-config.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > ajax-submit-contact.php</li>
+			<li><strong>File affected:</strong> realestate-7 > template-contact.php</li>
+		</ul>
+	</li>
+	<li>Fixed ct_theme_directory_uri() function to use fopen instead of file_exists for child themes and overriding the images directory
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.5.0</strong> 12/23/2015</h3>
+
+<ol>
+	<li>Added Multi-Office Location Capability for the Contact Page can be selected via Real Estate 7 Options > Contact > Multiple Locations <a href="http://cl.ly/2Z1L1k46401R">Screenshot</a>
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-options > re7-config.php</li>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+			<li><strong>File affected:</strong> realestate-7 > css > layout.css</li>
+			<li><strong>File affected:</strong> realestate-7 > js > mapping.js</li>
+			<li><strong>File affected:</strong> realestate-7 > template-contact.php</li>
+		</ul>
+	</li>
+	<li>Updated ReduxFramework to latest version
+		<ul>
+			<li><strong>Folder affected:</strong> realestate-7 > admin > ReduxFramework > ReduxCore</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.4.9</strong> 12/18/2015</h3>
+
+<ol>
+	<li>Added Side by Side Map/Results Option for Listings Search can be selected via Real Estate 7 Options > Listings > Search Results Layout <a href="http://cl.ly/1s3V0M1M0p0k">Screenshot</a>
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-options > re7-config.php</li>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+			<li><strong>File affected:</strong> realestate-7 > css > layout.css</li>
+			<li><strong>File affected:</strong> realestate-7 > js > base.js</li>
+			<li><strong>File affected:</strong> realestate-7 > layouts > grid.php</li>
+			<li><strong>File affected:</strong> realestate-7 > search-listings.php</li>
+		</ul>
+	</li>
+	<li>Fixed horizontal/magic mouse scroll bug in Safari on homepage
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > css > layout.css</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.4.8</strong> 12/16/2015</h3>
+
+<ol>
+	<li>Updated Visual Composer and Slider Revolution to the latest versions
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > plugins > js_composer.zip</li>
+			<li><strong>File affected:</strong> realestate-7 > admin > plugins > revslider.zip</li>
+			<li><strong>File affected:</strong> realestate-7 > admin > plugins > register.php</li>
+		</ul>
+	</li>
+	<li>Updated language files
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > languages > contempo.pot</li>
+			<li><strong>File affected:</strong> realestate-7 > languages > en_US.po</li>
+			<li><strong>File affected:</strong> realestate-7 > languages > en_US.mo</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.4.7</strong> 12/15/2015</h3>
+
+<ol>
+	<li>Sidebar fix for WordPress 4.4 
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > includes > custom-stylesheet.php</li>
+		</ul>
+	</li>
+	<li>Added Country Currency Code option for Front End Submission PayPal Payments
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-options > re7-config.php</li>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Fixed URL encoding bug for Google Fonts causing them not to load properly
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Small tweaks to Create a Skin
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > includes > custom-stylesheet.php</li>
+		</ul>
+	</li>
+	<li>Updated Documentation
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-documentation > index.html</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.4.6</strong> 12/9/2015</h3>
+
+<ol>
+	<li>Naming fix for Single Listing Right sidebar
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > single-listings.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.4.5</strong> 12/9/2015</h3>
+
+<ol>
+	<li>Added CT Testimonails widget <a href="http://cl.ly/2n241B0O1K2X">screenshot</a>
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > includes > widget > ct-widget-testimonials.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > widgets.php</li>
+			<li><strong>File affected:</strong> realestate-7 > css > base.css</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.4.4</strong> 12/4/2015</h3>
+
+<ol>
+	<li>Added optional rental information to Front End Submit &amp; Edit Listing pages <a href="http://cl.ly/image/1O3k2F0R1H2I">screenshot</a>
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+			<li><strong>File affected:</strong> realestate-7 > css > layout.css</li>
+			<li><strong>File affected:</strong> realestate-7 > template-submit-listing.php</li>
+			<li><strong>File affected:</strong> realestate-7 > template-edit-listing.php</li>
+		</ul>
+	</li>
+	<li>Added admin option to turn on/off Optional Rental Information for Front End Submit &amp; Edit Listing pages <a href="http://cl.ly/image/1H162V1V3z2d">screenshot</a>
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-options > re7-config.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.4.3</strong> 12/2/2015</h3>
+
+<ol>
+	<li>Child Theme Generator now also outputs a functions.php file for ever easier use
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ct-child-theme > ct-child-theme.php</li>
+		</ul>
+	</li>
+	<li>Added conditionals to beds &amp; baths if left empty the labels won't be displayed
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > widgets > ct-widget-agentsotherlistings.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > sub-listings.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.4.2</strong> 12/1/2015</h3>
+
+<ol>
+	<li>Fixed status bug when updating listings from front end
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > template-edit-listing.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.4.1</strong> 11/27/2015</h3>
+
+<ol>
+	<li>Added loader to advanced search form to avoid flash of ugly/unstyled dropdowns
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > css > layout.css</li>
+			<li><strong>File affected:</strong> realestate-7 > js > ct.select.js</li>
+		</ul>
+	</li>
+	<li>Added option to turn off Agent Details &amp; Request More Info Form on Single Listing View
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-options > re7-config.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > single-listing-home.php</li>
+			<li><strong>File affected:</strong> realestate-7 > single-listings.php</li>
+		</ul>
+	</li>
+	<li>Typo correction for Google Maps styles option label
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-options > re7-config.php</li>
+		</ul>
+	</li>
+	<li>Removed non-applicable fonts from options array to avoid 404 errors
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-options > re7-config.php</li>
+		</ul>
+	</li>
+	<li>Updated Multi-Listing Demo Content &amp; Slider Revolution Import
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > redux-extensions-loader > extensions > wbc_importer > demo-data >multi-listing > content.xml</li>
+		</ul>
+	</li>
+	<li>Fixed "Create One" link in View Listings when a user doesn't currently have any yet
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > template-view-listings.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.4.0</strong> 11/26/2015</h3>
+
+<ol>
+	<li>Fixed sticky header width in boxed layout
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > css > layout.css</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.3.9</strong> 11/25/2015</h3>
+
+<ol>
+	<li>Updated Map Info Windows to also use Alternate and Rental Titles if added
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Wrote a custom function to check for child theme and if the image folder exists use it otherwise use the parents for map pins, so 404/missing pins are avoided
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Added conditionals to View, Edit &amp; Submit Listings for improved security
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > template-edit-listings.php</li>
+		</ul>
+	</li>
+	<li>Added conditionals to Edit Profile/Account Settings for improved security
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > template-edit-profile.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.3.8</strong> 11/24/2015</h3>
+
+<ol>
+	<li>RTL fix to FlexSlider
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > flexslider.css</li>
+		</ul>
+	</li>
+	<li>Removed page title if statement in dsIDXpress page template
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > template-dsidxpress.php</li>
+		</ul>
+	</li>
+	<li>Changed map pin image URLs to use get_stylesheet_directory_uri() instead of get_template_directory_uri() for better child theme support
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.3.7</strong> 11/20/2015</h3>
+
+<ol>
+	<li>Fixes/Updates for RTL
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > rtl.css</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.3.6</strong> 11/19/2015</h3>
+
+<ol>
+	<li>Fixed Phone number bug for Contact page
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > includes > ajax-submit-contact.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.3.5</strong> 11/18/2015</h3>
+
+<ol>
+	<li>Fixed listing count bug in header user dropdown
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > header.php</li>
+		</ul>
+	</li>
+	<li>Updated Slider Revolution, Visual Composer &amp; Envato WordPress Toolkit plugins to latest versions. To Update go to Admin > Appearance > Install Plugins > Update Available (<a href="http://cl.ly/image/1f0h092J092I">admin screenshot</a>)
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > plugins > register.php</li>
+			<li><strong>File affected:</strong> realestate-7 > admin > plugins > js_composer.zip</li>
+			<li><strong>File affected:</strong> realestate-7 > admin > plugins > revslider.zip</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.3.4</strong> 11/12/2015</h3>
+
+<ol>
+	<li>Fixed single blog post video bug
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > single.php</li>
+		</ul>
+	</li>
+	<li>Fixed Homepage FlexSlider bug
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Fixed Front End Submission Auto Publish bug
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > template-submit-listing.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.3.3</strong> 11/9/2015</h3>
+
+<ol>
+	<li>Fixed agent twitter link bug
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > single-listings.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.3.2</strong> 10/30/2015</h3>
+
+<ol>
+	<li>Fixed agent link in CT Agent Info widget
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > includes > widgets > ct-widget-agentinfo.php</li>
+		</ul>
+	</li>
+	<li>Rewrote ct_listing_post_count() function to be more reliable on showing user posts in header when logged in
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.3.1</strong> 10/28/2015</h3>
+
+<ol>
+	<li>Added custom functions to sort Beds &amp; Baths by number ascending for Listings Search
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updated Property Type and Status selects to show all terms and not just ones with published Listings attached to them on the Submit Listing Template only
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+			<li><strong>File affected:</strong> realestate-7 > template-submit-listing.php</li>
+		</ul>
+	</li>
+	<li>Fixed author image option on blog archive
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > layouts > blog-large.php</li>
+		</ul>
+	</li>
+	<li>Fixed listings search widget select width bug
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > css > base.css</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.3.0</strong> 10/16/2015</h3>
+
+<ol>
+	<li>Moved main theme style.css to enqueue after all others to avoid issues with overriding styles in child themes
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.2.9</strong> 10/15/2015</h3>
+
+<ol>
+	<li>Fixed Land &amp; Lot Property Type bug for removing Bed/Bath
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > sub-listings.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > widgets > ct-widget-agentsotherlistings.php</li>
+		</ul>
+	</li>
+	<li>Fixed Contact Page Template Success Message bug
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.2.8</strong> 10/15/2015</h3>
+
+<ol>
+	<li>Fixed Custom Footer Background image bug
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > includes > custom-stylesheet.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.2.7</strong> 10/14/2015</h3>
+
+<ol>
+	<li>Added WP All Import to Documentation, grab the official Add On <a href="https://wordpress.org/plugins/wp-pro-real-estate-7-xml-csv-property-listings-import/">Here</a>
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-documentation > index.html</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.2.5</strong> 10/7/2015</h3>
+
+<ol>
+	<li>Fixed Zip/Postcode bug in Advanced Search select
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updates/Fixes to the Live Customizer and Create a Skin panel, also fixed some Secondary Color elements that were missing/incorrect
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-options > re7-config.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > custom-stylesheet.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.2.4</strong> 10/6/2015</h3>
+
+<ol>
+	<li>Removed Standard Visual Composer Updater so it doesn't try to download from Envato and instead grabs the Pre-Packaged plugin files
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.2.3</strong> 10/6/2015</h3>
+
+<ol>
+	<li>Localized Form Validation Errors
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+			<li><strong>File affected:</strong> realestate-7 > js > jquery.validationEngine.js</li>
+			<li><strong>File affected:</strong> realestate-7 > languages > contempo.pot</li>
+			<li><strong>File affected:</strong> realestate-7 > languages > en_US.mo</li>
+			<li><strong>File affected:</strong> realestate-7 > languages > en_US.po</li>
+			<li><strong>File affected:</strong> realestate-7 > languages > it_IT.mo</li>
+			<li><strong>File affected:</strong> realestate-7 > languages > it_IT.po</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.2.2</strong> 10/5/2015</h3>
+
+<ol>
+	<li>Updated Visual Composer to latest version
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > plugins > js_composer.zip</li>
+			<li><strong>File affected:</strong> realestate-7 > admin > plugins > register.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.2.1</strong> 10/2/2015</h3>
+
+<ol>
+	<li>Integrated the Walk Score API for listings <a href="http://wp.contempographicdesign.com/wp-real-estate-7/documentation/#walkscore">Click Here for More info &amp; Setup</a>
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-options > re7-config.php</li>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+			<li><strong>File affected:</strong> realestate-7 > css > base.css</li>
+		</ul>
+	</li>
+	<li>Updated documentation
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-documentation > index.html</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.2.0</strong> 10/1/2015</h3>
+
+<ol>
+	<li>Added "Area" as an option for dwelling and lot sizes
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Fixed undefined function bug in front end submission
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.1.9</strong> 9/30/2015</h3>
+
+<ol>
+	<li>Fixed time format bug for Check In/Out for rentals
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.1.9</strong> 9/30/2015</h3>
+
+<ol>
+	<li>Fixed time format bug for Check In/Out for rentals
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.1.8</strong> 9/29/2015</h3>
+
+<ol>
+	<li>Updated Demo Importer to use ini_set() instead of max_execution_time() to hopefully alleviate issues with some lower end shared servers
+		<ul>
+			<li><strong>Folder affected:</strong> realestate-7 > admin > Redix Framework</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.1.7</strong> 9/28/2015</h3>
+
+<ol>
+	<li>Fixed property information bug in Agents Other Listings widget
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > includes > widgets > ct-widget-agentsotherlistings.php</li>
+		</ul>
+	</li>
+	<li>Fixed property information bug in Sub Listings
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > includes > sub-listings.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.1.6</strong> 9/28/2015</h3>
+
+<ol>
+	<li>Fixed Currency on Deposit field
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.1.5</strong> 9/23/2015</h3>
+
+<ol>
+	<li>Added Number of Guests to search field options
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-options > re7-config.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > widgets > ct-widget-listingssearch.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > advanced-search.php</li>
+			<li><strong>File affected:</strong> realestate-7 > search-listings.php</li>
+		</ul>
+	</li>
+	<li>Added Community to listings search widget
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > includes > widgets > ct-widget-listingssearch.php</li>
+		</ul>
+	</li>
+	<li>Updated ReduxFramework to latest version
+		<ul>
+			<li><strong>Folder affected:</strong> realestate-7 > admin > ReduxFramework > ReduxCore</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.1.4</strong> 9/22/2015</h3>
+
+<ol>
+	<li>Redo fixed price bug when using international formatting, made edit in Contempo Real Estate Custom Posts instead update to v1.1.1 of the plugin through your admin
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.1.3</strong> 9/22/2015</h3>
+
+<ol>
+	<li>Fixed price bug when using international formatting
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.1.2</strong> 9/18/2015</h3>
+
+<ol>
+	<li>Rewrote single listings slider functions
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+			<li><strong>File affected:</strong> realestate-7 > single-listings.php</li>
+		</ul>
+	</li>
+	<li>Added Google Maps style option in WP Pro Real Estate 7 Options > Listings
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-options > re7-config.php</li>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+			<li><strong>File affected:</strong> realestate-7 > js > ct.mapping.js</li>
+		</ul>
+	</li>
+	<li>Fixed Homepage FlexSlider bug
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.1.1</strong> 9/17/2015</h3>
+
+<ol>
+	<li>Fixed CT Agent Info Widget title styling
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > css > base.css</li>
+		</ul>
+	</li>
+	<li>Fixed Support link in Documentation
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-documentation > index.html</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.1.0</strong> 9/16/2015</h3>
+
+<ol>
+	<li>Small bug fix to line 322, changed get_stylesheet_directoct_propinfory_uri() to get_stylesheet_directory_uri()
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.0.9</strong> 9/15/2015</h3>
+
+<ol>
+	<li>Updated Revolution Slider plugin to latest version (critical bug fix)
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > plugins > register.php</li>
+			<li><strong>File affected:</strong> realestate-7 > admin > plugins > revslider.zip</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.0.8</strong> 9/15/2015</h3>
+
+<ol>
+	<li>Fixed Community Search field bug
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > includes > advanced-search.php</li>
+			<li><strong>File affected:</strong> realestate-7 > search-listings.php</li>
+		</ul>
+	</li>
+	<li>Added option to turn off bottom margin on Full Width page template
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > template-full-width.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.0.7</strong> 9/10/2015</h3>
+
+<ol>
+	<li>Added Agent Contact Modal to Agents Page Template (http://cl.ly/image/0c2f3n2B1l0X)
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+			<li><strong>File affected:</strong> realestate-7 > template-agents.php</li>
+		</ul>
+	</li>
+	<li>Fixed listings widget status bug
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > includes > widgets > ct-widget-agentsotherlistings.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > widgets > ct-widgets-listings.php</li>
+		</ul>
+	</li>
+	<li>Fixed Brokerage Logo bug on Agents Single
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > css > layout.css</li>
+		</ul>
+	</li>
+	<li>Added Zoom Mouse Cursor to Single Listings Slider Image Hover
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > css > flexslider.css</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.0.6</strong> 9/9/2015</h3>
+
+<ol>
+	<li>Fixed listings excerpt length bug, also added conditional if "0" then no excerpt is displayed
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-options > re7-config.php</li>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > featured-listings.php</li>
+			<li><strong>File affected:</strong> realestate-7 > layouts > grid.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.0.5</strong> 9/8/2015</h3>
+
+<ol>
+	<li>Fixed critical double function bug
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Fixed Country search field bug
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.0.4</strong> 9/8/2015</h3>
+
+<ol>
+	<li>Fixed listings image bug
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > includes > featured-listings.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > sub-listings.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > widgets > ct-widget-agentsotherlistings.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > widgets > ct-widget-listings.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.0.3</strong> 9/5/2015</h3>
+
+<ol>
+	<li>Updated demo importer to use set_time_limit like the standard WordPress importer
+		<ul>
+			<li><strong>Folder affected:</strong> realestate-7 > admin > ReduxFramework</li>
+		</ul>
+	</li>
+	<li>Updated both multi and vacation demo slider imports
+		<ul>
+			<li><strong>Folder affected:</strong> realestate-7 > admin > ReduxFramework</li>
+		</ul>
+	</li>
+	<li>Added default background color for status tags/snipes
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > css > layout.css</li>
+		</ul>
+	</li>
+	<li>Fixed max-width bug for logo in Firefox
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > css > layout.css</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.0.2</strong> 9/3/2015</h3>
+
+<ol>
+	<li>Updated Demo Importer with a progress bar so you know exactly where you're at in the process, http://cl.ly/image/0Y3m1c3f2W07
+		<ul>
+			<li><strong>Folder affected:</strong> realestate-7 > admin > ReduxFramework > redux-extensions-loader</li>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-options > re7-config.php</li>
+		</ul>
+	</li>
+	<li>Added Property ID field to Single Listings template
+		<ul>
+			<li><strong>Folder affected:</strong> realestate-7 > single-listings.php</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.0.1</strong> 9/1/2015</h3>
+
+<ol>
+	<li>Changed MLS to Property ID in Advanced Search Layout Manager
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-options > re7-config.php</li>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+			<li><strong>File affected:</strong> realestate-7 > includes > advanced-search.php</li>
+			<li><strong>File affected:</strong> realestate-7 > search-listings.php</li>
+		</ul>
+	</li>
+	<li>Fixed translation bug and added missing strings to po &amp; mo files
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > theme-functions.php</li>
+			<li><strong>File affected:</strong> realestate-7 > languages > en_US.mo</li>
+			<li><strong>File affected:</strong> realestate-7 > languages > en_US.po</li>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+	<li>Updated Translation Documentation with additional instructions for plugins
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-documentation > index.html</li>
+		</ul>
+	</li>
+	<li>Fixed CT Tabs widget styling
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > css > base.css</li>
+		</ul>
+	</li>
+	<li>Fixed Single Listing Layout Mode JS bug
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > js > base.js</li>
+		</ul>
+	</li>
+	<li>Updated changelog
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > admin > ReduxFramework > theme-changelog > index.html</li>
+		</ul>
+	</li>
+	<li>Updated version number
+		<ul>
+			<li><strong>File affected:</strong> realestate-7 > style.css</li>
+		</ul>
+	</li>
+</ol>
+
+<h3><strong>v1.0.0</strong> 8/28/2015</h3>
+
+<ol>
+    <li>Theme Released!</li>
+</ol>
+
+<p><a href="#24_section_group">Back to top</a></p>

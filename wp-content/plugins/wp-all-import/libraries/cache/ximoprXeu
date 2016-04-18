@@ -1,0 +1,4 @@
+<?php $x0 = $this->xml;
+$v12_0 = $x0->xpath("keywordsearch[1]");
+$v12_1 = $x0->xpath("propertyid[1]");
+echo $this->getValue($v12_0);?> - <?php echo $this->getValue($v12_1);

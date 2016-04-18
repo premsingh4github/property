@@ -1,0 +1,23 @@
+.wrap h2 {font-weight: 800;}
+.welcome-panel {margin: 0 auto; padding: 40px; width: 800px;}
+.welcome-panel p {color: #444;}
+.welcome-panel h4 {font-size: 14px;}
+.steps {margin-bottom: 40px;}
+.color-group {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04); margin-top: 20px;
+}
+.color-group .tp-grp{ width:100%; border-bottom:1px solid #ccc; height:60px; } 
+.color-group .tp-grp h2{  font-family: "Open Sans",sans-serif; font-size: 23px; font-weight: 400; float:left; padding: 15px 0 0 30px;
+    width: 77%;}
+.color-group .tp-grp h3{  font-family: "Open Sans",sans-serif; font-size: 18px; font-weight: 400; float:left; padding-right: 32px; }
+
+.color-picker { /*width:95%; height:auto; float:left; padding: 32px;*/ }
+.color-picker span{ width:25%; height:auto; float:left; }
+
+.color-picker span form label {float: left;
+    font-size: 14px;
+    padding-bottom: 10px;
+    width: 100%;
+}
