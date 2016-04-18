@@ -318,6 +318,6 @@ echo '<div class=" main">';
 
         <?php do_action('before_main_content'); ?>
 
-        <?php } ?>
+        <?php }  ?>
         <!-- Main Content -->
         <section id="main-content">

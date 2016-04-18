@@ -11,6 +11,7 @@ if (!empty($_GET['search-listings'])) {
 	return;
 }
 
+
 $ct_mode = isset( $ct_options['ct_mode'] ) ? esc_html( $ct_options['ct_mode'] ) : '';
 $ct_rev_slider = isset( $ct_options['ct_home_rev_slider_alias'] ) ? esc_html( $ct_options['ct_home_rev_slider_alias'] ) : '';
 $ct_home_adv_search_style = isset( $ct_options['ct_home_adv_search_style'] ) ? $ct_options['ct_home_adv_search_style'] : '';
@@ -26,7 +27,6 @@ get_header();
 	if($ct_mode == "single-listing") {
 
 		get_template_part('/includes/single-listing-home');
-
 	    if ($layout) :
 	    
 	    foreach ($layout as $key=>$value) {
@@ -144,6 +144,7 @@ get_header();
 	    } endif; 
 
 	} else {
+
 
 		// Multi-Listing Mode
 	    if ($layout) :

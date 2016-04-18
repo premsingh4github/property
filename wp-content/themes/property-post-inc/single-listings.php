@@ -11,6 +11,8 @@ $ct_listing_tools = isset( $ct_options['ct_listing_tools'] ) ? esc_html( $ct_opt
 $ct_listing_agent_info = isset( $ct_options['ct_listing_agent_info'] ) ? esc_html( $ct_options['ct_listing_agent_info'] ) : '';
 
 get_header();
+wpb_set_post_views(get_the_ID());
+
  
 if (!empty($_GET['search-listings'])) {
 	require('search-listings.php');
